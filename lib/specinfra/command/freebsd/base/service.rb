@@ -3,8 +3,17 @@ class Specinfra::Command::Freebsd::Base::Service < Specinfra::Command::Base::Ser
     def check_is_enabled(service, level=3)
       "service #{escape(service)} enabled"
     end
-    def check_is_running_under_init(service)
+
+    def check_is_running(service)
       "service #{escape(service)} status | grep -E 'as (pid [0-9]+)'"
+    end
+
+    def enable(service)
+      "service #{escape(service)} enable"
+    end
+
+    def disable(service)
+      "service #{escape(service)} disable"
     end
   end
 end

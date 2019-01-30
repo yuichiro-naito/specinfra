@@ -1,2 +1,2 @@
-class Specinfra::Command::Freebsd::V7::Service < Specinfra::Command::Freebsd::V6::Service
+class Specinfra::Command::Freebsd::V7::Service < Specinfra::Command::Freebsd::V8::Service
 end

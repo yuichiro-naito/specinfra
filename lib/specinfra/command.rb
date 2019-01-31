@@ -266,25 +266,34 @@ require 'specinfra/command/freebsd/v6'
 require 'specinfra/command/freebsd/v6/user'
 require 'specinfra/command/freebsd/v6/package'
 require 'specinfra/command/freebsd/v6/service'
+require 'specinfra/command/freebsd/v6/interface'
 
 # FreeBSD V7 (inherit FreeBSD)
 require 'specinfra/command/freebsd/v7'
 require 'specinfra/command/freebsd/v7/package'
 require 'specinfra/command/freebsd/v7/service'
+require 'specinfra/command/freebsd/v7/interface'
 
 # FreeBSD V8 (inherit FreeBSD)
 require 'specinfra/command/freebsd/v8'
 require 'specinfra/command/freebsd/v8/package'
 require 'specinfra/command/freebsd/v8/service'
+require 'specinfra/command/freebsd/v8/interface'
 
 # FreeBSD V9 (inherit FreeBSD)
 require 'specinfra/command/freebsd/v9'
 require 'specinfra/command/freebsd/v9/package'
 require 'specinfra/command/freebsd/v9/service'
+require 'specinfra/command/freebsd/v9/interface'
+
+# FreeBSD V11 (inherit FreeBSD)
+require 'specinfra/command/freebsd/v10'
+require 'specinfra/command/freebsd/v10/service'
+require 'specinfra/command/freebsd/v10/interface'
 
 # FreeBSD V11 (inherit FreeBSD)
 require 'specinfra/command/freebsd/v11'
-require 'specinfra/command/freebsd/v11/interface'
+require 'specinfra/command/freebsd/v11/service'
 
 # OpenBSD (inherit Base)
 require 'specinfra/command/openbsd'
